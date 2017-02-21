@@ -14,9 +14,6 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'REA
 post:
   template: _post.txt
   extension: md
-page:
-  template: _page.txt
-  extension: md
 editor: gvim
 git:
   branch: master
