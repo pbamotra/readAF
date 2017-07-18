@@ -8,7 +8,12 @@
   <title>{{ site.title }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="google-site-verification" content="Q2OPw0Bw0fxRb-H4RqYU9P_eRSBdhjoJ0VMHGMEtSPY" />
-    
+  
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://medium.com/read-af";
+    }, 3000);
+    </script>
   <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
   {% if site.data.options.lato_font_load %}
     <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
